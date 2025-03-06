@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "plots"
+version = "0.1.0"
+description = ""
+authors = ["Samuel-Bonghanoy <20103261@usc.edu.ph>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+pandas = ">=2.2.3,<3.0.0"
+matplotlib = ">=3.10.0,<4.0.0"
+numpy = ">=2.2.2,<3.0.0"
+networkx = "^3.4.2"
+ipython = "^8.32.0"
+rpy2 = "^3.5.17"
+seaborn = "^0.13.2"
+scikit-learn = "^1.6.1"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
